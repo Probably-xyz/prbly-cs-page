@@ -4,3 +4,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pushable {
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+    outline-offset: 0px;
+    outline: 2px solid black;
+    margin-left: 10px;
+}
+
+.front {
+    outline: 2px solid black;
+    padding: 8px 14px;
+    border-radius: 0px;
+    transition: 0.3s;
+}
+
+.front:hover {
+    transform: translate(-8px, -8px);
+}
+
+.pushable:active .front {
+    transform: translateY(0px);
+}
