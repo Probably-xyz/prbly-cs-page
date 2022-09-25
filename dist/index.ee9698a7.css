@@ -321,6 +321,18 @@ img, video {
   padding-top: 1.5rem;
 }
 
+.pt-72 {
+  padding-top: 18rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -337,6 +349,11 @@ img, video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -375,6 +392,24 @@ img, video {
 
 .pushable:active .front {
   transform: translateY(0);
+}
+
+@media (min-width: 640px) {
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:pt-72 {
+    padding-top: 18rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 /*# sourceMappingURL=index.ee9698a7.css.map */
